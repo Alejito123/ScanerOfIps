@@ -1,15 +1,15 @@
 #!/bin/bash
 
-echo "Ingrese la dirección IP a escanear:"
+echo "Enter the IP address to scan:"
 read ip_address
 
-echo "Seleccione una opción de escaneo:"
-echo "1. Escaneo normal"
-echo "2. Escaneo silencioso"
-echo "3. Escaneo por UDP"
-echo "4. Escaneo de versión"
-echo "5. Escaneo completo y rápido"
-echo "6. Escaneo de vunerabilidades"
+echo "Select a scanning option:"
+echo "1. Normal scanning"
+echo "2. Silent scanning"
+echo "3. UDP scanning"
+echo "4. Version scan"
+echo "5. Complete and fast scanning"
+echo "6. Vulnerability scanning"
 
 read option
 
