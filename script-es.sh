@@ -27,7 +27,7 @@ case $option in
         nmap -sV $ip_address
         ;;
     5)
-        nmap -T5 -p- -min-rate 5000 $ip_address
+        nmap -T5 -p- --min-rate 5000 $ip_address
         ;;
     6)
         nmap -T5 --script vuln -p- $ip_address
